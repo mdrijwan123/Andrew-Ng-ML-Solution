@@ -28,3 +28,49 @@ A=np.array([[1,2],[3,4],[5,6]])
 np.shape(A)
 
 str="GeeksPython"
+
+A=np.array([[1,2,3],[4,5,6],[7,8,9]])
+g_x=1/(1+np.exp(-A.T))
+A=np.c_[np.ones(3),A]
+np.ones(3)
+t=np.linspace(0,10,100)
+y=-3+5*t
+plt.plot(t,y,c='r')
+
+
+list1=[]
+list1.append(['Name1','Name2'])
+list1.append(['Name3','Name4'])
+
+for i in zip(list1):
+    k,l=i
+    print(k,'and',l)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
